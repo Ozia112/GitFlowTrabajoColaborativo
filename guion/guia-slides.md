@@ -1,10 +1,24 @@
-# Guía para armar las diapositivas: Sesión 2
+<div align="center">
+
+# Guía para armar las diapositivas
+
+Sesión 2 del curso de Git · Material del instructor
+
+<br>
+
+<img src="../assets/logos/git.webp" width="70" alt="Git" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="../assets/logos/github.png" width="70" alt="GitHub" />
+
+</div>
+
+---
 
 > Guía orientativa para construir la presentación a partir de [`guion-instructor.md`](guion-instructor.md). Para cada bloque dice **qué diapositivas hacen falta, qué debe llevar cada una y qué visual la acompaña**. No es el texto final de las slides: es la lista de lo que no puede faltar.
 
 ---
 
-## Criterios generales
+## <font color="#179287">Criterios generales</font>
 
 - **Las slides acompañan, la terminal enseña.** La mayor parte de la clase ocurre en VS Code y GitHub.com. Las diapositivas sirven para abrir cada bloque (la pregunta), fijar la idea clave y dejar a la vista una referencia (tabla, comando, diagrama). No se proyectan pasos de clic en clic.
 - **Una idea por slide.** Si una slide necesita dos frases clave, son dos slides.
@@ -18,7 +32,7 @@
 
 ---
 
-## Apertura (2 a 3 slides)
+## <font color="#F05032">Apertura (2 a 3 slides)</font>
 
 ### Slide 0.1: Portada
 - Título: *Git y GitHub en equipo, desde la terminal*. Subtítulo: Sesión 2, intensiva de 4 horas.
@@ -37,7 +51,7 @@
 
 ---
 
-## Bloque 1: El botón era un comando (4 a 5 slides)
+## <font color="#F05032">Bloque 1: El botón era un comando (4 a 5 slides)</font>
 
 ### Slide 1.1: Portada de bloque + gancho
 - Captura de GitHub Desktop con el botón **Push origin** resaltado.
@@ -66,7 +80,7 @@
 
 ---
 
-## Bloque 2: Local y origin (6 a 7 slides)
+## <font color="#F05032">Bloque 2: Local y origin (6 a 7 slides)</font>
 
 ### Slide 2.1: Portada de bloque
 - Pregunta: *"Cuando el repo sube a GitHub, ¿cuál es la copia de verdad?"*
@@ -104,7 +118,7 @@
 
 ---
 
-## Bloque 3: Tu primer issue (3 a 4 slides)
+## <font color="#F05032">Bloque 3: Tu primer issue (3 a 4 slides)</font>
 
 ### Slide 3.1: Portada + analogía
 - Imagen de una **comanda** de cocina.
@@ -126,7 +140,7 @@
 
 ---
 
-## Bloque 4: El ritual diario + primer PR (7 a 8 slides)
+## <font color="#F05032">Bloque 4: El ritual diario + primer PR (7 a 8 slides)</font>
 
 ### Slide 4.1: Portada + el ritual en tres momentos (slide fija)
 - **Antes:** ponerse al día. **Durante:** commits pequeños y mirar dónde estás. **Después:** subir, pedir revisión, integrar, limpiar.
@@ -173,7 +187,7 @@
 
 ---
 
-## Bloque 5: Las reglas de la casa (6 a 7 slides)
+## <font color="#F05032">Bloque 5: Las reglas de la casa (6 a 7 slides)</font>
 
 ### Slide 5.1: Portada + la puerta abierta
 - Captura de la terminal: commit directo en `main` y `git push` que **funciona**.
@@ -212,7 +226,7 @@
 
 ---
 
-## Bloque 6: Historia limpia (8 a 9 slides)
+## <font color="#F05032">Bloque 6: Historia limpia (8 a 9 slides)</font>
 
 ### Slide 6.1: Portada + la meta
 - Idea central: **un PR = un commit en `main`**, con título claro y `(#N)` que lleva al PR.
@@ -260,7 +274,7 @@
 
 ---
 
-## Bloque 7: Conflictos en equipo (6 a 7 slides)
+## <font color="#F05032">Bloque 7: Conflictos en equipo (6 a 7 slides)</font>
 
 ### Slide 7.1: Portada + la tarea que garantiza el choque
 - Todos agregan **su fila** a la tabla *Integrantes* del README, en el mismo lugar.
@@ -298,7 +312,7 @@
 
 ---
 
-## Bloque 8: Ciclo completo sin red (3 slides)
+## <font color="#F05032">Bloque 8: Ciclo completo sin red (3 slides)</font>
 
 ### Slide 8.1: La consigna
 - *"Cada quien crea un issue para otra persona, y cada quien resuelve el que le asignaron. Solo con el acordeón."*
@@ -315,7 +329,7 @@
 
 ---
 
-## Cierre (5 a 6 slides)
+## <font color="#F05032">Cierre (5 a 6 slides)</font>
 
 ### Slide C.1: El recorrido
 - Captura de la **Graph** real de un equipo, anotada de abajo hacia arriba con el bloque que produjo cada tramo: `git init` → publicación → nudos de los perfiles → entra el robot → línea recta (rebase y conflictos).
@@ -350,7 +364,7 @@
 
 ---
 
-## Slides de respaldo (opcionales, al final del deck)
+## <font color="#179287">Slides de respaldo (opcionales, al final del deck)</font>
 
 Útiles para no improvisar si surge el problema; no se proyectan salvo que haga falta.
 

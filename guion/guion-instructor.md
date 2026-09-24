@@ -1,11 +1,24 @@
+<div align="center">
+
 # Guion de clase: Git y GitHub en equipo, desde la terminal
-## Sesión 2: 4 horas (intensiva)
+
+Sesión 2 del curso de Git · 4 horas (intensiva) · Material del instructor
+
+<br>
+
+<img src="../assets/logos/git.webp" width="70" alt="Git" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="../assets/logos/github.png" width="70" alt="GitHub" />
+
+</div>
+
+---
 
 > Formato de la clase: **cero código en pantalla** y **cero botones de GitHub Desktop**. Todo lo que el alumno hace con Git (crear repos, ramas, commits, sincronizar) lo hace en la terminal con **git** y **gh** (GitHub CLI). Lo que es configuración o revisión (colaboradores, reglas del repositorio, issues, revisión de Pull Requests, checks) se hace donde es más práctico: en **GitHub.com**. Lo que el alumno *mira* lo mira en **VS Code** (Source Control, vista Graph nativa y GitLens). Lo que se escribe en los archivos es solo texto en Markdown: nadie programa. La terminal no es el tema de la clase, es el volante: el tema es **trabajar de forma ordenada en un repositorio compartido**.
 
 ---
 
-## 0. Filosofía del guion (léelo antes de dar la clase)
+## <font color="#179287">0. Filosofía del guion (léelo antes de dar la clase)</font>
 
 La lógica es la misma que en la Sesión 1: cada bloque abre una pregunta que **solo el siguiente bloque resuelve**. Repo local antes de repo compartido (primero se quita la interfaz, después se agregan personas); local vs. origin antes de cualquier rama de equipo (si no entienden que hay dos copias, nada de lo que sigue tiene sentido); issue antes de rama (el trabajo nace de una tarea, no de un impulso); flujo feliz antes de reglas (primero ven cómo *debería* ser, luego ven qué impide que alguien se lo salte); reglas antes de "el mundo siguió sin ti" (la regla de "rama al día" obliga a aprender `pull --rebase`); rebase limpio antes de rebase con conflicto; y al final, el ciclo completo **sin guía**.
 
@@ -41,7 +54,7 @@ Cinco decisiones de diseño que conviene tener presentes:
 
 ---
 
-## Acto 0: Preparación previa (antes de la clase)
+## <font color="#179287">Acto 0: Preparación previa (antes de la clase)</font>
 
 **Del alumno (se pide con al menos una semana de anticipación):**
 
@@ -58,7 +71,7 @@ Cinco decisiones de diseño que conviene tener presentes:
 
 ---
 
-### 🧩 Bloque 1: El botón era un comando (20 min)
+### <font color="#F05032">Bloque 1: El botón era un comando (20 min)</font>
 
 **Objetivo:** perderle el miedo a la terminal demostrando que cada botón de GitHub Desktop era un comando, y crear desde cero, con `git init`, un repositorio local con commits y una rama.
 
@@ -109,7 +122,7 @@ flowchart LR
 
 ---
 
-### 🧩 Bloque 2: Local y origin, el líder publica y el equipo clona (30 min)
+### <font color="#F05032">Bloque 2: Local y origin, el líder publica y el equipo clona (30 min)</font>
 
 **Objetivo:** convertir el repo local del líder en el repo del equipo siguiendo las instrucciones estándar que da GitHub, y entender, viéndolo, que existen el repo **local** y el repo **origin**, y que la foto que tu compu tiene de origin solo se actualiza cuando tú la pides.
 
@@ -158,7 +171,7 @@ flowchart LR
 
 ---
 
-### 🧩 Bloque 3: Tu primer issue (15 min)
+### <font color="#F05032">Bloque 3: Tu primer issue (15 min)</font>
 
 **Objetivo:** entender el issue como la unidad de trabajo del equipo y crear el primero.
 
@@ -182,7 +195,7 @@ flowchart LR
 
 ---
 
-### 🧩 Bloque 4: El ritual diario, antes, durante y después + primer PR (35 min)
+### <font color="#F05032">Bloque 4: El ritual diario, antes, durante y después + primer PR (35 min)</font>
 
 **Objetivo:** ejecutar de principio a fin el ciclo de trabajo en una rama propia, desde la tarea hasta el merge, y convertirlo en hábito. En este bloque cada quien trabaja en **su propio archivo**, así que nadie choca con nadie: es el flujo feliz.
 
@@ -261,7 +274,7 @@ gitGraph
 
 ---
 
-### 🧩 Bloque 5: Las reglas de la casa (30 min)
+### <font color="#F05032">Bloque 5: Las reglas de la casa (30 min)</font>
 
 **Objetivo:** configurar el repositorio desde la web para que el ritual deje de ser una sugerencia y se vuelva obligatorio, y entender (sin programar nada) que un robot puede revisar cada PR.
 
@@ -310,7 +323,7 @@ flowchart TD
 
 ---
 
-### 🧩 Bloque 6: Historia limpia, `amend`, `pull --rebase` y squash (35 min)
+### <font color="#F05032">Bloque 6: Historia limpia, `amend`, `pull --rebase` y squash (35 min)</font>
 
 **Objetivo:** aprender a dejar la historia limpia sin perder la pista de nada: corregir el último commit antes de compartirlo (`amend`), poner al día una rama propia sin nudos (`pull --rebase` + `--force-with-lease`) e integrarla a `main` como un solo commit que apunta a su PR (squash). En este bloque **no hay conflictos**: cada quien sigue tocando solo su archivo.
 
@@ -392,7 +405,7 @@ gitGraph
 
 ---
 
-### 🧩 Bloque 7: Conflictos en equipo (35 min)
+### <font color="#F05032">Bloque 7: Conflictos en equipo (35 min)</font>
 
 **Objetivo:** provocar a propósito un conflicto real durante un `pull --rebase`, resolverlo en el editor de merge de VS Code y terminar el rebase desde la terminal, sin pánico.
 
@@ -437,7 +450,7 @@ gitGraph
 
 ---
 
-### 🧩 Bloque 8: Ciclo completo sin red + limpieza (15 min)
+### <font color="#F05032">Bloque 8: Ciclo completo sin red + limpieza (15 min)</font>
 
 **Objetivo:** repetir el ciclo entero **sin instrucciones paso a paso**, usando solo el acordeón del ritual, y dejar el repo limpio.
 
@@ -488,7 +501,7 @@ flowchart LR
 
 ---
 
-## Cierre: no hay una sola forma correcta + tarea (15 min)
+## <font color="#F05032">Cierre: no hay una sola forma correcta + tarea (15 min)</font>
 
 ### 1. El recorrido (3 min)
 
@@ -542,7 +555,7 @@ Proyectar [`material/tarea.md`](../material/tarea.md), que es el mismo documento
 
 ---
 
-## Notas finales para el instructor
+## <font color="#179287">Notas finales para el instructor</font>
 
 - El Bloque 2 es el que más se atrasa (invitaciones sin aceptar, autenticación de `gh` fallida, líderes que crean el repo en GitHub **con** README y luego no pueden hacer push). Si un líder marcó "Add a README", lo más rápido es borrar ese repo en `Settings → Danger Zone` y crearlo de nuevo vacío.
 - Si al hacer el primer commit del Bloque 1 la terminal responde *"Please tell me who you are"*, ese alumno no tiene la configuración que deja GitHub Desktop (por ejemplo, porque usa otra computadora). Resuélvelo aparte con un asistente: `git config --global user.name` y `git config --global user.email` con el correo de su cuenta de GitHub.
@@ -557,7 +570,7 @@ Proyectar [`material/tarea.md`](../material/tarea.md), que es el mismo documento
 
 ---
 
-## Anexo para el instructor: material de la sesión
+## <font color="#179287">Anexo para el instructor: material de la sesión</font>
 
 El material del alumno vive en la carpeta [`material/`](../material/) de este repositorio, y el enlace se envía por correo antes de la clase. Además de la [guía del alumno](../material/guia-alumno.md) y la [tarea](../material/tarea.md), incluye la carpeta [`plantillas-y-robot/`](../material/plantillas-y-robot/) con los tres archivos de configuración que copian los equipos. Ninguno de esos tres archivos se proyecta completo ni se explica línea por línea: en clase solo se ve su efecto.
 

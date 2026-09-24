@@ -1,4 +1,18 @@
+<div align="center">
+
 # Tarea: "Nuestras reglas del juego"
+
+Sesión 2 del curso de Git · En equipo · 4 horas
+
+<br>
+
+<img src="../assets/logos/git.webp" width="70" alt="Git" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="../assets/logos/github.png" width="70" alt="GitHub" />
+
+</div>
+
+---
 
 En clase trabajamos con **una** forma de colaborar en un repositorio. No es la única ni la correcta: es la que elegimos para aprender. Ahora les toca a ustedes decidir qué reglas necesita su equipo, y por qué.
 
@@ -11,7 +25,7 @@ En clase trabajamos con **una** forma de colaborar en un repositorio. No es la �
 
 ---
 
-## Qué hay que hacer
+## <font color="#179287">Qué hay que hacer</font>
 
 1. **Elegir una idea de proyecto** que les gustaría construir juntos (no hay que construirlo). Puede ser cualquier cosa: una app, una página, un videojuego, un documento colaborativo, un proyecto de clase. Lo importante es poder describir su contexto: cuántos son, cuánto tiempo tendrían, qué pasaría si algo se rompe y quién va a usar el resultado.
 2. **Investigar estrategias de trabajo colaborativo con Git.** Buscar y comparar al menos **tres** formas conocidas de organizar el trabajo en un repositorio (por ejemplo: trabajo directo en una sola rama, una rama por tarea con Pull Requests, flujos con varias ramas permanentes, o flujos basados en forks), y al menos **dos** formas de integrar cambios (merge commit, squash, rebase).
@@ -19,7 +33,9 @@ En clase trabajamos con **una** forma de colaborar en un repositorio. No es la �
 4. **Documentarlo** en su repositorio, en `docs/soporte/workflow_y_politicas_de_trabajo_colaborativo.md`.
 5. **Grabar un video** con diapositivas donde expliquen el documento.
 
-## Contenido mínimo del documento
+---
+
+## <font color="#179287">Contenido mínimo del documento</font>
 
 - La idea del proyecto y su contexto (equipo, tiempo, usuarios, riesgos).
 - Las estrategias investigadas, comparadas en una tabla, con las fuentes que consultaron.
@@ -36,7 +52,9 @@ En clase trabajamos con **una** forma de colaborar en un repositorio. No es la �
 - Un diagrama del flujo (puede ser una imagen hecha a mano, en una herramienta de diagramas o en Mermaid).
 - Cuándo revisarían estas reglas: qué tendría que cambiar en el proyecto para que dejen de servirles.
 
-## Reglas de la entrega
+---
+
+## <font color="#179287">Reglas de la entrega</font>
 
 - El documento **se construye con el flujo de trabajo**: cada sección o grupo de secciones nace de un issue, se escribe en una rama y entra por PR revisado por al menos otro integrante. El historial del repo es la prueba de que trabajaron en equipo, y cuenta como parte de la entrega.
 - Si su estrategia elegida es distinta a la de clase, **ajusten la configuración de su repo** (reglas de la rama, forma de integrar) para que coincida con lo que documentaron, y explíquenlo en el video.
@@ -44,7 +62,9 @@ En clase trabajamos con **una** forma de colaborar en un repositorio. No es la �
 - **Video:** de 5 a 10 minutos, con diapositivas, en el que participen **todos** los integrantes. Debe explicar el documento, no leerlo: el contexto del proyecto, qué compararon, qué eligieron y por qué. Cierren mostrando brevemente su repositorio en GitHub (issues cerrados, PRs y la Graph).
 - **Qué se entrega:** el enlace al repositorio y el enlace al video (agréguenlo también al final del documento).
 
-## Distribución sugerida de las 4 horas
+---
+
+## <font color="#179287">Distribución sugerida de las 4 horas</font>
 
 | Actividad | Tiempo |
 |---|---|

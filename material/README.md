@@ -1,6 +1,20 @@
+<div align="center">
+
 # Material del alumno
 
-Todo lo que necesitas durante la sesión y después de ella.
+Sesión 2 del curso de Git · Todo lo que necesitas durante la sesión y después de ella.
+
+<br>
+
+<img src="../assets/logos/git.webp" width="70" alt="Git" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="../assets/logos/github.png" width="70" alt="GitHub" />
+
+</div>
+
+---
+
+## <font color="#179287">Qué hay en esta carpeta</font>
 
 | Qué | Para qué | Cuándo |
 |---|---|---|

@@ -1,4 +1,18 @@
+<div align="center">
+
 # Plantillas y robot
+
+Sesión 2 del curso de Git · Archivos de configuración para el repo del equipo
+
+<br>
+
+<img src="../../assets/logos/git.webp" width="70" alt="Git" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="../../assets/logos/github.png" width="70" alt="GitHub" />
+
+</div>
+
+---
 
 Tres archivos que usarás en clase para que tu equipo no empiece de cero. **No tienes que escribirlos ni entenderlos por dentro**: solo copiarlos cuando la clase lo indique.
 
@@ -10,7 +24,9 @@ Tres archivos que usarás en clase para que tu equipo no empiece de cero. **No t
 
 Las plantillas son solo un ejemplo para empezar. Tu equipo puede cambiarlas, hacerlas más largas o borrarlas: las reglas las deciden ustedes.
 
-## Para experimentar
+---
+
+## <font color="#179287">Para experimentar</font>
 
 La carpeta `.github` es una ventana a la configuración de GitHub: lo que pongas ahí cambia cómo se comporta tu repositorio, y como es un archivo más, viaja con el repo y entra por PR.
 
@@ -18,7 +34,9 @@ La carpeta `.github` es una ventana a la configuración de GitHub: lo que pongas
 - Cada archivo `.md` que agregues en `.github/ISSUE_TEMPLATE/` (con sus propias líneas `name` y `about`) aparece como otra opción en ese menú. Prueba crear una plantilla `error.md` para reportar problemas, o una `idea.md` para proponer mejoras.
 - Si un cambio no te convence, lo reviertes como cualquier otro PR.
 
-## Cómo copiar un archivo
+---
+
+## <font color="#179287">Cómo copiar un archivo</font>
 
 1. Abre el archivo en GitHub y presiona el botón **Copy raw file** (el ícono de copiar, arriba a la derecha del contenido).
 2. En tu repo, crea un archivo con **la misma ruta y el mismo nombre** (por ejemplo, `.github/pull_request_template.md`) y pega el contenido.
