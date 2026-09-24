@@ -1,4 +1,4 @@
-# Guía para armar las diapositivas: Bloque 2
+# Guía para armar las diapositivas: Sesión 2
 
 > Guía orientativa para construir la presentación a partir de [`guion-instructor.md`](guion-instructor.md). Para cada bloque dice **qué diapositivas hacen falta, qué debe llevar cada una y qué visual la acompaña**. No es el texto final de las slides: es la lista de lo que no puede faltar.
 
@@ -6,13 +6,13 @@
 
 ## Criterios generales
 
-- **Las slides acompañan, la terminal enseña.** La mayor parte de la clase ocurre en VS Code y GitHub.com. Las diapositivas sirven para abrir cada escena (la pregunta), fijar la idea clave y dejar a la vista una referencia (tabla, comando, diagrama). No se proyectan pasos de clic en clic.
+- **Las slides acompañan, la terminal enseña.** La mayor parte de la clase ocurre en VS Code y GitHub.com. Las diapositivas sirven para abrir cada bloque (la pregunta), fijar la idea clave y dejar a la vista una referencia (tabla, comando, diagrama). No se proyectan pasos de clic en clic.
 - **Una idea por slide.** Si una slide necesita dos frases clave, son dos slides.
 - **Comandos en fuente monoespaciada y grandes.** Máximo 3 o 4 comandos por slide, cada uno con su traducción a lenguaje humano al lado.
-- **Estructura repetible por escena:** portada de escena (número, título, pregunta que abre) → slides de contenido → slide de frase clave o diagrama → slide de transición (la pregunta que abre la siguiente escena).
+- **Estructura repetible por bloque:** portada de bloque (número, título, pregunta que abre) → slides de contenido → slide de frase clave o diagrama → slide de transición (la pregunta que abre el siguiente bloque).
 - **Pregunta de "¿dónde está esto?".** Conviene un icono o etiqueta fija de tres estados (💻 local / ☁️ origin / ambos) para reutilizar en las slides de comandos.
 - **Recursos visuales disponibles:** logos en [`assets/logos/`](../assets/logos/) (Git, GitHub, UADY). Los diagramas Mermaid del guion se pueden exportar tal cual (mermaid.live) o redibujar.
-- **Slides "fijas":** la tabla de traducción (Escena 1), el ritual (Escena 4) y el acordeón (Escena 8) deben poder quedarse proyectadas varios minutos mientras los alumnos trabajan: letra grande y sin animaciones.
+- **Slides "fijas":** la tabla de traducción (Bloque 1), el ritual (Bloque 4) y el acordeón (Bloque 8) deben poder quedarse proyectadas varios minutos mientras los alumnos trabajan: letra grande y sin animaciones.
 
 **Conteo estimado:** 45 a 55 diapositivas.
 
@@ -21,7 +21,7 @@
 ## Apertura (2 a 3 slides)
 
 ### Slide 0.1: Portada
-- Título: *Git y GitHub en equipo, desde la terminal*. Subtítulo: Bloque 2, sesión intensiva de 4 horas.
+- Título: *Git y GitHub en equipo, desde la terminal*. Subtítulo: Sesión 2, intensiva de 4 horas.
 - Logos de UADY, Git y GitHub. Nombre del instructor.
 
 ### Slide 0.2: Reglas del juego de hoy
@@ -30,16 +30,16 @@
 - Frase: *"La terminal no es el tema, es el volante."*
 
 ### Slide 0.3: Mapa de la sesión
-- Las 8 escenas + descanso + cierre, con su duración (versión simplificada de la tabla del storyboard).
+- Los 8 bloques + descanso + cierre, con su duración (versión simplificada de la tabla del storyboard).
 - Opcional: marcar con color las dos mitades (antes y después del descanso).
 
-> Antes de pasar a la Escena 1: verificar `gh auth status` en todas las máquinas. Se puede dejar una slide de "check-in" con ese comando.
+> Antes de pasar al Bloque 1: verificar `gh auth status` en todas las máquinas. Se puede dejar una slide de "check-in" con ese comando.
 
 ---
 
-## Escena 1: El botón era un comando (4 a 5 slides)
+## Bloque 1: El botón era un comando (4 a 5 slides)
 
-### Slide 1.1: Portada de escena + gancho
+### Slide 1.1: Portada de bloque + gancho
 - Captura de GitHub Desktop con el botón **Push origin** resaltado.
 - Pregunta grande: *"¿Qué hace este botón cuando lo presionan?"*
 - Siguiente clic (animación): `git push origin`. *"Hoy le quitamos el disfraz."*
@@ -55,7 +55,7 @@
 - Visual: mini captura de la terminal con `status` en rojo y luego en verde.
 
 ### Slide 1.4: Tabla de traducción Desktop → terminal (slide fija)
-- La tabla completa del guion (14 filas). Es la slide que queda visible el resto de la escena, así que debe leerse desde el fondo del salón.
+- La tabla completa del guion (14 filas). Es la slide que queda visible el resto del bloque, así que debe leerse desde el fondo del salón.
 
 ### Slide 1.5: Repaso de ramas + cierre
 - `git switch -c prueba` / `git switch main`: el cambio aparece y desaparece.
@@ -66,9 +66,9 @@
 
 ---
 
-## Escena 2: Local y origin (6 a 7 slides)
+## Bloque 2: Local y origin (6 a 7 slides)
 
-### Slide 2.1: Portada de escena
+### Slide 2.1: Portada de bloque
 - Pregunta: *"Cuando el repo sube a GitHub, ¿cuál es la copia de verdad?"*
 - Roles: **líder** publica, **equipo** clona.
 
@@ -92,7 +92,7 @@
 - Equipo: `cd ..` + `gh repo clone lider/equipo-[nombre]`.
 - Frase: *"Clonar es el único momento en que no hacen `git init`."*
 
-### Slide 2.6: `main` vs `origin/main` (slide central de la escena)
+### Slide 2.6: `main` vs `origin/main` (slide central del bloque)
 - Diagrama del guion: tu compu (archivos, `main`, `origin/main`) y GitHub (`main` real), con las flechas add/commit, push, fetch, pull.
 - Definición grande: **`main` es tu rama; `origin/main` es la foto que tu compu tiene de GitHub.**
 - Contraste: `git remote -v` en el repo del equipo vs. en `practica-terminal` (no responde nada).
@@ -104,7 +104,7 @@
 
 ---
 
-## Escena 3: Tu primer issue (3 a 4 slides)
+## Bloque 3: Tu primer issue (3 a 4 slides)
 
 ### Slide 3.1: Portada + analogía
 - Imagen de una **comanda** de cocina.
@@ -126,11 +126,11 @@
 
 ---
 
-## Escena 4: El ritual diario + primer PR (7 a 8 slides)
+## Bloque 4: El ritual diario + primer PR (7 a 8 slides)
 
 ### Slide 4.1: Portada + el ritual en tres momentos (slide fija)
 - **Antes:** ponerse al día. **Durante:** commits pequeños y mirar dónde estás. **Después:** subir, pedir revisión, integrar, limpiar.
-- Diseño en tres columnas; se queda proyectada durante la escena.
+- Diseño en tres columnas; se queda proyectada durante el bloque.
 
 ### Slide 4.2: Antes de empezar
 - `git switch main` → *"me paro en la base"*
@@ -161,7 +161,7 @@
 
 ### Slide 4.7: Foto mental de la historia
 - Diagrama gitGraph del guion (dos PR con merge commit) o captura real del `git log --oneline --graph` con los *"Merge pull request #…"*.
-- Texto: *"Tómenle foto mental; en la Escena 6 la vamos a comparar."*
+- Texto: *"Tómenle foto mental; en el Bloque 6 la vamos a comparar."*
 
 ### Slide 4.8: GitLens, "¿quién escribió esto?"
 - Tres capturas pequeñas: **Current Line Blame**, **hover** con la tarjeta del commit, **CodeLens**.
@@ -173,7 +173,7 @@
 
 ---
 
-## Escena 5: Las reglas de la casa (6 a 7 slides)
+## Bloque 5: Las reglas de la casa (6 a 7 slides)
 
 ### Slide 5.1: Portada + la puerta abierta
 - Captura de la terminal: commit directo en `main` y `git push` que **funciona**.
@@ -212,7 +212,7 @@
 
 ---
 
-## Escena 6: Historia limpia (8 a 9 slides)
+## Bloque 6: Historia limpia (8 a 9 slides)
 
 ### Slide 6.1: Portada + la meta
 - Idea central: **un PR = un commit en `main`**, con título claro y `(#N)` que lleva al PR.
@@ -245,7 +245,7 @@
 ### Slide 6.7: Squash and merge
 - Captura de la caja de confirmación: título del PR + `(#número)`, descripción con `Closes #`.
 - Frase: *"Esto es lo que va a quedar escrito en main para siempre."*
-- Comparación lado a lado: el log de la Escena 4 (nudos) vs. el de ahora (línea recta, un commit por PR).
+- Comparación lado a lado: el log del Bloque 4 (nudos) vs. el de ahora (línea recta, un commit por PR).
 
 ### Slide 6.8: La pista no se perdió + limpieza
 - Tres niveles: **main cuenta el qué · el PR cuenta el cómo · el issue cuenta el porqué.**
@@ -260,7 +260,7 @@
 
 ---
 
-## Escena 7: Conflictos en equipo (6 a 7 slides)
+## Bloque 7: Conflictos en equipo (6 a 7 slides)
 
 ### Slide 7.1: Portada + la tarea que garantiza el choque
 - Todos agregan **su fila** a la tabla *Integrantes* del README, en el mismo lugar.
@@ -298,7 +298,7 @@
 
 ---
 
-## Escena 8: Ciclo completo sin red (3 slides)
+## Bloque 8: Ciclo completo sin red (3 slides)
 
 ### Slide 8.1: La consigna
 - *"Cada quien crea un issue para otra persona, y cada quien resuelve el que le asignaron. Solo con el acordeón."*
@@ -311,14 +311,14 @@
 
 ### Slide 8.3: Limpieza final y la prueba
 - Checklist: `git switch main`, `git pull`, `git branch` (solo `main`), `git fetch --prune`, Issues cerrados, PR vacíos.
-- La prueba: `git log --oneline` desde la Escena 5 = un PR por línea. Un *"ya ahora sí"* o un *"Merge branch…"* significa que algo del ritual se saltó.
+- La prueba: `git log --oneline` desde el Bloque 5 = un PR por línea. Un *"ya ahora sí"* o un *"Merge branch…"* significa que algo del ritual se saltó.
 
 ---
 
 ## Cierre (5 a 6 slides)
 
 ### Slide C.1: El recorrido
-- Captura de la **Graph** real de un equipo, anotada de abajo hacia arriba con la escena que produjo cada tramo: `git init` → publicación → nudos de los perfiles → entra el robot → línea recta (rebase y conflictos).
+- Captura de la **Graph** real de un equipo, anotada de abajo hacia arriba con el bloque que produjo cada tramo: `git init` → publicación → nudos de los perfiles → entra el robot → línea recta (rebase y conflictos).
 - Mensaje: la mitad de abajo contra la mitad de arriba.
 
 ### Slide C.2: Lo de hoy es *una* estrategia
@@ -339,8 +339,8 @@
 - **Cómo:** con el flujo de trabajo (issue, rama, PR); el historial cuenta.
 - **Lo que casi nadie hace:** documentar las reglas que decidieron **no** tener y ajustar la configuración del repo.
 - **Video:** 5 a 10 min, con slides y todos los integrantes; explicar, no leer.
-- **Fecha:** antes del siguiente bloque. **Sin video no se acreditan los puntos.** (Destacado en color.)
-- Referencia: [`tarea/README.md`](../tarea/README.md).
+- **Fecha:** antes del siguiente sesión. **Sin video no se acreditan los puntos.** (Destacado en color.)
+- Referencia: [`material/tarea.md`](../material/tarea.md).
 
 ### Slide C.6: Recursos y despedida
 - Recursos: `gh help`, docs de GitHub (flujos, rulesets, métodos de merge), Pro Git en español, Oh My Git!.
@@ -360,4 +360,4 @@
 - **Por qué squash y no merge commit ni rebase merging:** comparación de las tres opciones en tres columnas.
 - **Rama reutilizada tras un squash:** por qué choca y cómo salir (rama nueva desde `main`).
 - **Atajos para adelantados:** `gh issue develop [número] --checkout`, `gh pr merge --squash --delete-branch`.
-- **Fuera de este bloque:** `rebase -i`, `stash`, `cherry-pick`, `reflog`, tags y releases.
+- **Fuera de esta sesión:** `rebase -i`, `stash`, `cherry-pick`, `reflog`, tags y releases.

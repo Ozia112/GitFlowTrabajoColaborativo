@@ -2,7 +2,7 @@
 
 # Git en equipo: trabajo colaborativo desde la terminal
 
-Segundo bloque del curso de Git. Aquí encontrarás lo que necesitas preparar, el material de la clase, la tarea y una guía rápida para repasar el flujo por tu cuenta.
+Sesión 2 del curso de Git · 4 horas. Desde aquí llegas a todo lo que necesitas: qué instalar antes de la clase, la guía que seguirás durante la sesión, el material, la tarea y los recursos para repasar por tu cuenta.
 
 <br>
 
@@ -20,9 +20,9 @@ Segundo bloque del curso de Git. Aquí encontrarás lo que necesitas preparar, e
 
 ---
 
-## <font color="#179287">De qué trata este bloque</font>
+## <font color="#179287">De qué trata esta sesión</font>
 
-En el primer bloque aprendiste Git con botones. En este dejamos los botones y trabajamos **en equipo, sobre un repositorio compartido, desde la terminal**. No vas a programar nada: todo lo que escribas será texto en Markdown.
+En la Sesión 1 aprendiste Git con botones. En esta dejamos los botones y trabajamos **en equipo, sobre un repositorio compartido, desde la terminal**. No vas a programar nada: todo lo que escribas será texto en Markdown.
 
 Al terminar vas a poder:
 
@@ -36,65 +36,74 @@ Al terminar vas a poder:
 
 ---
 
+## <font color="#179287">Qué hay en este repositorio</font>
+
+| Qué | Para quién | Dónde |
+|---|---|---|
+| **Guía del alumno**: los 8 bloques de la sesión, paso a paso, con sus actividades y el acordeón | Alumnos | [`material/guia-alumno.md`](material/guia-alumno.md) |
+| **Plantillas y robot**: plantillas de issue y de PR, y el robot revisor que copiará tu equipo | Alumnos | [`material/plantillas-y-robot/`](material/plantillas-y-robot/) |
+| **Tarea**: "Nuestras reglas del juego" | Alumnos | [`material/tarea.md`](material/tarea.md) |
+| **Guion**: el material guía del instructor, con tiempos, frases clave y notas | Instructores | [`guion/guion-instructor.md`](guion/guion-instructor.md) |
+| **Guía de diapositivas**: qué debe llevar la presentación en cada bloque | Instructores | [`guion/guia-slides.md`](guion/guia-slides.md) |
+
+**Vocabulario del curso:**
+
+| Término | Qué es |
+|---|---|
+| **Sesión** | Una clase completa de 4 horas. Este repositorio cubre la Sesión 2 |
+| **Bloque** | Cada parte de la sesión donde se explica y practica un concepto principal. La sesión tiene 8 |
+| **Guion** | El material guía del instructor |
+| **Guía del alumno** | Lo que tú sigues durante la sesión, bloque por bloque |
+
+---
+
 ## <font color="#179287">Antes de la clase</font>
 
-Del primer bloque ya tienes cuenta de GitHub, Git instalado y GitHub Desktop con tu cuenta vinculada. **No necesitas configurar Git a mano**: GitHub Desktop ya dejó registrados tu nombre y tu correo.
+De la Sesión 1 ya tienes cuenta de GitHub, Git instalado y GitHub Desktop con tu cuenta vinculada. **No necesitas configurar Git a mano**: GitHub Desktop ya dejó registrados tu nombre y tu correo, y la terminal usa esa misma configuración.
 
-- [ ] Instalar **GitHub CLI** desde [cli.github.com](https://cli.github.com/). Comprueba en la terminal que `gh --version` responde.
+| Herramienta | Enlace |
+|---|---|
+| GitHub CLI (`gh`) | [cli.github.com](https://cli.github.com/) |
+| VS Code | [code.visualstudio.com](https://code.visualstudio.com/) |
+| Extensión GitLens para VS Code | [GitLens en el Marketplace](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) |
+
+- [ ] Instalar **GitHub CLI**. Comprueba en la terminal que `gh --version` responde.
 - [ ] Iniciar sesión con `gh auth login` → GitHub.com → HTTPS → *Login with a web browser*. Comprueba con `gh auth status`.
 - [ ] Tener **VS Code** con la extensión **GitLens** instalada. No inicies sesión ni conectes nada en GitLens; si te lo ofrece, cierra la ventana.
 - [ ] Saber quién es el **líder** de tu equipo (3 o 4 personas).
 
----
-
-## <font color="#179287">Material de la clase</font>
-
-La carpeta [`material/`](material/) tiene tres archivos que tu equipo copiará durante la clase: una plantilla para issues, una plantilla para Pull Requests y un "robot revisor" que se ejecuta en cada PR. No tienes que escribirlos: en su [README](material/README.md) se explica para qué sirve cada uno y cómo copiarlo.
+> Si al empezar la clase `gh auth status` no responde bien, avísale a un asistente: te ayudará aparte sin detener al grupo.
 
 ---
 
-## <font color="#179287">Tarea: "Nuestras reglas del juego"</font>
+## <font color="#179287">Durante la clase</font>
+
+Sigue la [**guía del alumno**](material/guia-alumno.md). La sesión avanza en 8 bloques; cada uno explica qué vas a hacer, cómo hacer cada actividad y qué debes tener listo antes de pasar al siguiente.
+
+| # | Bloque |
+|---|---|
+| 1 | El botón era un comando |
+| 2 | Local y origin: el líder publica, el equipo clona |
+| 3 | Tu primer issue |
+| 4 | El ritual diario y tu primer Pull Request |
+| ☕ | Descanso |
+| 5 | Las reglas de la casa |
+| 6 | Historia limpia: amend, pull --rebase y squash |
+| 7 | Conflictos en equipo |
+| 8 | Ciclo completo sin red |
+| | Cierre: no hay una sola forma correcta |
+
+Al final de la guía está el **acordeón del ritual de trabajo en equipo**: la tabla de comandos para repasar el flujo por tu cuenta.
+
+---
+
+## <font color="#179287">Después de la clase: la tarea</font>
 
 En equipo, elegirán una idea de proyecto, investigarán qué estrategia de trabajo colaborativo le conviene y la documentarán en su repositorio. Además, grabarán un video de 5 a 10 minutos explicándola.
 
-**Es obligatoria, se entrega antes del siguiente bloque y el video es necesario para acreditar los puntos de formación integral.**
+**Es obligatoria, se entrega antes de la siguiente sesión y el video es necesario para acreditar los puntos de formación integral.**
 
-👉 [Instrucciones completas de la tarea](tarea/README.md)
-
----
-
-## <font color="#179287">Acordeón: el ritual de trabajo en equipo</font>
-
-| Momento | Qué hago | Dónde / comando |
-|---|---|---|
-| **Antes** | Ver qué me toca | GitHub.com → Issues, o `gh issue list --assignee @me` |
-| | Pararme en la base | `git switch main` |
-| | Ponerme al día | `git pull` |
-| | Abrir mi rama | `git switch -c feature/[número]-[descripción]` |
-| **Durante** | Ver qué cambió | `git status` / `git diff` |
-| | Guardar un avance pequeño | `git add [archivo]` + `git commit -m "tipo: mensaje"` |
-| | Corregir mi último commit (antes de subirlo) | `git add [archivo]` + `git commit --amend --no-edit` |
-| | Ver dónde estoy | `git log --oneline --graph` / Graph de VS Code |
-| | Si main avanzó, ponerme al día | `git pull --rebase origin main` |
-| **Después** | Subir mi rama | `git push -u origin [rama]` (la primera vez) / `git push` |
-| | Subir después de un rebase o amend | `git push --force-with-lease` |
-| | Pedir revisión | `gh pr create --web` (con plantilla) o `gh pr create --base main --title "tipo: qué hice" --body "Closes #[número]"` |
-| | Ver el robot | Checks del PR en GitHub.com, o `gh pr checks` |
-| | Revisar a otros | GitHub.com → Files changed → Review changes |
-| | Integrar | GitHub.com → **Squash and merge** |
-| | Limpiar después del squash | `git switch main` + `git pull` + `git branch -D [rama]` (cuando el PR diga *Merged*) |
-| **Pánico** | Salir de un rebase a medias | `git rebase --abort` |
-| | Deshacer algo que ya está en main | `git revert [hash]` en una rama nueva + PR |
-| | Dejar mi main igual a origin | `git reset --hard origin/main` (borra lo que no esté en origin) |
-
-**Reglas de oro:**
-
-- Nunca se trabaja directo en `main`.
-- Solo se reescribe historia **propia** (`amend`, `rebase`, `--force-with-lease`), y de preferencia antes de compartirla. La historia de `main` nunca se reescribe.
-- Nunca `--force` a secas; siempre `--force-with-lease`.
-- Una rama, un PR. Después de integrar, la rama se borra.
-
-> Estas son las reglas que usamos en clase, no las únicas posibles. Cada equipo puede y debe elegir las suyas: de eso trata la tarea.
+👉 [Instrucciones completas de la tarea](material/tarea.md)
 
 ---
 
@@ -104,9 +113,3 @@ En equipo, elegirán una idea de proyecto, investigarán qué estrategia de trab
 - [Pro Git en español](https://git-scm.com/book/es/v2): libro oficial y gratuito (capítulos 3, *Ramificaciones en Git*, y 5, *Git en entornos distribuidos*)
 - [Documentación de GitHub](https://docs.github.com/es): flujos de trabajo, rulesets y métodos de merge
 - [Oh My Git!](https://ohmygit.org/): juego visual para practicar, incluido el rebase
-
----
-
-## <font color="#179287">Para instructores</font>
-
-El guion completo de la sesión (escenas, tiempos, frases clave y notas) está en [`guion/guion-instructor.md`](guion/guion-instructor.md).

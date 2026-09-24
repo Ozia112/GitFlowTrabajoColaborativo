@@ -6,7 +6,7 @@ En clase trabajamos con **una** forma de colaborar en un repositorio. No es la �
 |---|---|
 | **Modalidad** | En equipo (el mismo de la clase), sobre su mismo repositorio |
 | **Tiempo estimado** | 4 horas de trabajo en total por equipo |
-| **Fecha límite** | Antes del inicio del siguiente bloque |
+| **Fecha límite** | Antes del inicio del siguiente sesión |
 | **Acreditación** | La entrega completa, **incluido el video**, es obligatoria para acreditar los puntos de formación integral del programa |
 
 ---
@@ -38,7 +38,7 @@ En clase trabajamos con **una** forma de colaborar en un repositorio. No es la �
 
 ## Reglas de la entrega
 
-- El documento **se construye con el flujo de trabajo**: cada sección o bloque de secciones nace de un issue, se escribe en una rama y entra por PR revisado por al menos otro integrante. El historial del repo es la prueba de que trabajaron en equipo, y cuenta como parte de la entrega.
+- El documento **se construye con el flujo de trabajo**: cada sección o grupo de secciones nace de un issue, se escribe en una rama y entra por PR revisado por al menos otro integrante. El historial del repo es la prueba de que trabajaron en equipo, y cuenta como parte de la entrega.
 - Si su estrategia elegida es distinta a la de clase, **ajusten la configuración de su repo** (reglas de la rama, forma de integrar) para que coincida con lo que documentaron, y explíquenlo en el video.
 - Las plantillas de issue y de PR también son parte de sus políticas: consérvenlas, modifíquenlas, agreguen otras (por ejemplo, una para reportar errores) o elimínenlas, y expliquen en el documento por qué.
 - **Video:** de 5 a 10 minutos, con diapositivas, en el que participen **todos** los integrantes. Debe explicar el documento, no leerlo: el contexto del proyecto, qué compararon, qué eligieron y por qué. Cierren mostrando brevemente su repositorio en GitHub (issues cerrados, PRs y la Graph).
