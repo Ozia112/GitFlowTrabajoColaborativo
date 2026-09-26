@@ -67,6 +67,47 @@ De la Sesión 1 ya tienes cuenta de GitHub, Git instalado y GitHub Desktop con t
 | VS Code | [code.visualstudio.com](https://code.visualstudio.com/) |
 | Extensión GitLens para VS Code | [GitLens en el Marketplace](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) |
 
+### Instalar Git y GitHub CLI desde la terminal
+
+Si ya tienes Git de la Sesión 1, el comando lo detecta y solo instala lo que falta. Elige tu sistema operativo:
+
+**Windows** (PowerShell o Terminal):
+
+```powershell
+winget install --id Git.Git -e
+winget install --id GitHub.cli -e
+```
+
+> Al terminar, **cierra y vuelve a abrir la terminal** para que reconozca los comandos nuevos.
+
+**macOS** (requiere [Homebrew](https://brew.sh/)):
+
+```bash
+brew install git gh
+```
+
+**Linux**:
+
+```bash
+# Ubuntu / Debian
+sudo apt update && sudo apt install git gh
+
+# Fedora
+sudo dnf install git gh
+
+# Arch
+sudo pacman -S git github-cli
+```
+
+> Si tu distribución no encuentra el paquete `gh`, sigue las [instrucciones oficiales para Linux](https://github.com/cli/cli/blob/trunk/docs/install_linux.md).
+
+**Comprueba que ambos quedaron instalados:**
+
+```bash
+git --version
+gh --version
+```
+
 - [ ] Instalar **GitHub CLI**. Comprueba en la terminal que `gh --version` responde.
 - [ ] Iniciar sesión con `gh auth login` → GitHub.com → HTTPS → *Login with a web browser*. Comprueba con `gh auth status`.
 - [ ] Tener **VS Code** con la extensión **GitLens** instalada. No inicies sesión ni conectes nada en GitLens; si te lo ofrece, cierra la ventana.
